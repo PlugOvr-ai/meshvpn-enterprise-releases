@@ -15,7 +15,7 @@ mesh VPN plus device booking and central access control, for test benches, labs 
   agents use API keys and have the same rights as users.
 - **Audit log**: who changed and booked what, and when.
 
-Try it free for 30 days. A license unlocks the features afterwards (see [Licenses](#licenses)).
+Try it free for 30 days. A license unlocks the features afterwards (see [Licenses](#licenses) and [plugovr.ai](https://plugovr.ai)).
 
 **Contents:** [Install](#install) · [Set up a network](#set-up-a-network) · [Bookings](#bookings-and-access) ·
 [The portal](#the-portal) · [AI agents](#ai-agents) · [Licenses](#licenses) · [Updates](#updates) ·
@@ -168,14 +168,10 @@ curl -H "Authorization: Bearer mvk_..." -H "Content-Type: application/json" \
 
 ## Licenses
 
-| Plan | Price | |
-|---|---|---|
-| **Trial** | free, 30 days, 25 nodes | all features, for evaluation: `meshvpn license trial --email ... --accept-terms` or the portal |
-| **Academic** | free | universities and public research institutions, for teaching and their own non-commercial research: ask sales@plugovr.ai |
-| **Team** | €15 per node and month, billed yearly (€180 per node/year), from 10 nodes | all features, updates and security fixes, e-mail support |
-| **Enterprise** | on request | larger installations, custom terms: **sales@plugovr.ai** |
+Start with a free **30-day trial** on an admin node or in the portal:
+`sudo meshvpn license trial --email you@example.com --accept-terms`.
 
-Prices are net, plus VAT where applicable.
+Plans and prices: **[plugovr.ai](https://plugovr.ai)**. Questions and licenses: sales@plugovr.ai.
 
 ```sh
 sudo meshvpn license install meshvpn-L-....license --accept-terms
